@@ -623,30 +623,3 @@ end
 
 window = ChordApp.new
 Gtk.main
-
-# Thread.new {
-  
-  # puts "Hi There!"
-  # while true
-  #   puts "Enter 1 to leave."
-  #   puts "Enter 2 to search and download for file."
-  #   puts "Enter 3 to add a file to the DHT."
-  #   input = STDIN.gets.chomp
-  #   if input == "1"
-  #     node.leave
-  #     exit(0)
-  #   elsif input == "2"
-  #     puts "Enter file name. Remember to add the file extention (e.g .txt)"
-  #     f_name = STDIN.gets.chomp
-  #     found = $node.getFile f_name
-  #     puts found ? "file exists, downloading.." :  "file not found!"
-  #   elsif input == "3"
-  #     puts "Enter file directory. Remember to add the file extention (e.g .txt)"
-  #     f_dir = STDIN.gets.chomp
-  #     $node.putFile f_dir
-  #     puts "adding file to DHT"
-  #   end
-  # end
-  # puts "left"
-# }
-
